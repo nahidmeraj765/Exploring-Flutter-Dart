@@ -12,6 +12,11 @@ void main() {
               end: Alignment.bottomRight,
             ),
           ),
+          child: const Center(
+            child: Text(
+              "Hello World!"
+            ),
+          ),
         ),
       ),
     ),
