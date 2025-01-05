@@ -14,7 +14,10 @@ void main() {
           ),
           child: const Center(
             child: Text(
-              "Hello World!"
+              "Hello World!", style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+              ),
             ),
           ),
         ),
